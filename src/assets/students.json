@@ -1,0 +1,43 @@
+[
+	{
+    	"id": 1, 
+    	"first_name": "Aritra", 
+    	"last_name": "Ghosh",
+    	"grade": 90,
+    	"ph_no": 8918993426,
+    	"complain": false
+    },
+    {
+    	"id": 2, 
+    	"first_name": "Ratan", 
+    	"last_name": "Tudu",
+    	"grade": 60,
+    	"ph_no": 8918991234,
+    	"complain": false
+    },
+    {
+    	"id": 3, 
+    	"first_name": "Mimal", 
+    	"last_name": "Sen",
+    	"grade": 78,
+    	"ph_no": 8112393426,
+    	"complain": false
+    },
+    {
+    	"id": 4, 
+    	"first_name": "Santu", 
+    	"last_name": "Das",
+    	"grade": 60,
+    	"ph_no": 8918993444,
+    	"complain": false
+    },
+    {
+    	"id": 5, 
+    	"first_name": "Nabin", 
+    	"last_name": "Pathak",
+    	"grade": 54,
+    	"ph_no": 9934993426,
+    	"complain": false
+    }
+       
+]
