@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
 ## View Live from Firebase
-[Click Here](https://intern-ang-app.web.app/){ :target="_blank" rel="noopener"}
+[Click Here](https://intern-ang-app.web.app/?target=_blank)
 
 ## Features 
 - Used Angular Material. [Go](https://v8.material.angular.io/){:target="_blank" rel="noopener"}
