@@ -7,8 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 
 ## Features 
-- Used Angular Material. [Go](https://v8.material.angular.io/){:target="_blank" rel="noopener"}
-- Export CSV from the Table. [Go](https://www.geeksforgeeks.org/export-json-to-csv-file-in-angular/){:target="_blank" rel="noopener"}
+- Used Angular Material. [Go](https://v8.material.angular.io/)
+- Export CSV from the Table. [Go](https://www.geeksforgeeks.org/export-json-to-csv-file-in-angular/)
 
 ## Development server
 
