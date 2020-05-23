@@ -4,6 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## View Live from Firebase
 [Click Here](https://intern-ang-app.web.app/?target=_blank)
+<a href="http://example.com" target="_blank">http://example.com</a>
+
+
 
 ## Features 
 - Used Angular Material. [Go](https://v8.material.angular.io/){:target="_blank" rel="noopener"}
