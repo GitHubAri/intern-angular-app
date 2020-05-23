@@ -2,7 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
-[View Live](https://intern-ang-app.web.app/)
+## View Live from Firebase
+[Click Here](https://intern-ang-app.web.app/)
+
+## Features 
+- Used Angular Material. [Go](https://v8.material.angular.io/)
+- Export CSV from the Table. [Go](https://www.geeksforgeeks.org/export-json-to-csv-file-in-angular/)
 
 ## Development server
 
