@@ -3,11 +3,11 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.6.
 
 ## View Live from Firebase
-[Click Here](https://intern-ang-app.web.app/){:target="_blank"}
+[Click Here](https://intern-ang-app.web.app/){:target="_blank" rel="noopener"}
 
 ## Features 
-- Used Angular Material. [Go](https://v8.material.angular.io/){:target="_blank"}
-- Export CSV from the Table. [Go](https://www.geeksforgeeks.org/export-json-to-csv-file-in-angular/){:target="_blank"}
+- Used Angular Material. [Go](https://v8.material.angular.io/){:target="_blank" rel="noopener"}
+- Export CSV from the Table. [Go](https://www.geeksforgeeks.org/export-json-to-csv-file-in-angular/){:target="_blank" rel="noopener"}
 
 ## Development server
 
