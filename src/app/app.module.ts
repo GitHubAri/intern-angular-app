@@ -12,6 +12,8 @@ import { MaterialModule } from './material/material.module';
 import { ListComponent } from './components/list/list.component';
 import { StudentService } from './student.service';
 import { CsvService } from './csv.service';
+import { DragDropComponent } from './components/drag-drop/drag-drop.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { CsvService } from './csv.service';
     HeaderComponent,
     FooterComponent,
     ListComponent,
+    DragDropComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

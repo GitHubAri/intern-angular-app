@@ -1,20 +1,28 @@
+<div class="top">
+  <h2>Students Grades: </h2>
+  <br>
+  <a href="#new_tab" target="_blank">
+  <button mat-raised-button>Grades</button> 
+  </a>
+</div>
 
-<table matSort (matSortChange)="students($event)">
+<br>
+<h3>Students List</h3>
+<table matSort (matSortChange)="sortData($event)">
   <tr>
-    <th mat-sort-header="id">ID</th>
+    <th mat-sort-header="id">Id</th>
     <th mat-sort-header="first_name">First Name</th>
     <th mat-sort-header="last_name">Last Name</th>
-    <th mat-sort-header="grade">Grades</th>
-    <th mat-sort-header="ph_no">Contact No</th>
-    <th mat-sort-header="complain">Complain</th>
+    <th mat-sort-header="grade">Grade</th>
+    <th mat-sort-header="ph_no">Phone No</th>
   </tr>
 
-  <tr *ngFor="let s of students">
-    <td>{{s.id}}</td>
-    <td>{{s.first_name}}</td>
-    <td>{{s.last_name}}</td>
-    <td>{{s.grade}}</td>
-    <td>{{s.ph_no}}</td>
-    <td>{{s.complain}}</td>
+  <tr *ngFor="let students of students">
+    <td>{{students.id}}</td>
+    <td>{{students.first_name}}</td>
+    <td>{{students.last_name}}</td>
+    <td>{{students.grade}}</td>
+    <td>{{students.ph_no}}</td>
   </tr>
 </table>
+ 

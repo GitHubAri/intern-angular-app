@@ -16,8 +16,9 @@
     </div>
 
     <div>
-      <span><button mat-button>Home</button></span>
-      <span><button mat-button>Students</button></span>
+      <span><a mat-button routerLink="/">Home</a></span>
+      <span><a mat-button routerLink="/student-list">Students</a></span>
+      <span><a mat-button routerLink="/movies">Movies</a></span>
       <span><button mat-button (click)="download()">Exports</button></span>
     </div>
   </mat-toolbar>

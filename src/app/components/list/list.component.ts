@@ -10,30 +10,21 @@ import { IStudent } from './../../students';
 })
 export class ListComponent implements OnInit {
 
-	public students = [];
-
-	std: IStudent[] = this.students;
-    sortedData: IStudent[];
-
-  constructor(private studentService : StudentService) { 
-  	this.sortedData = this.std.slice();
-  }
+	public students= [];
+  constructor(private studentService : StudentService) {}
 
   ngOnInit() {
   	this.studentService.getStudents()
   		.subscribe(data => this.students = data);
   }
 
-  
-
   sortData(sort: Sort) {
-    const data = this.std.slice();
+    const data = this.students.slice();
     if (!sort.active || sort.direction === '') {
-      this.std = data;
+      this.students = data;
       return;
     }
-
-    this.std = data.sort((a, b) => {
+        this.students = data.sort((a, b) => {
       const isAsc = sort.direction === 'asc';
       switch (sort.active) {
         case 'id': return compare(a.id, b.id, isAsc);
@@ -41,13 +32,16 @@ export class ListComponent implements OnInit {
         case 'last_name': return compare(a.last_name, b.last_name, isAsc);
         case 'grade': return compare(a.grade, b.grade, isAsc);
         case 'ph_no': return compare(a.ph_no, b.ph_no, isAsc);
+        case 'complain': return compare(a.complain, b.complain, isAsc);
         default: return 0;
       }
     });
   }
-  
+
 }
 
-function compare(a: number | string, b: number | string, isAsc: boolean) {
-  	return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
-  }
+
+
+function compare(a: number | string | boolean, b: number | string | boolean, isAsc: boolean) {
+  return (a < b ? -1 : 1) * (isAsc ? 1 : -1);
+}
